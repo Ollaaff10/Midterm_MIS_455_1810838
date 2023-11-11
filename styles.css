@@ -14,20 +14,24 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    background-color: #004d98; /* Barcelona Blue */
 }
 
 .navbar ul li {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .navbar ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 10px 15px;
+    display: block;
 }
 
 .navbar ul li a:hover {
-    color: #ffdd00; /* Barcelona Accent Color */
+    background-color: #ffdd00; /* Barcelona Accent Color */
+    border-radius: 5px;
 }
 
 .flex-container {
