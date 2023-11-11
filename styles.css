@@ -1,23 +1,57 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-/* Additional CSS rules for grid, flex, hover effects, and footer/header */
 
 .header, .footer {
-    /* Styling for header and footer */
+    background-color: #004d98; /* Barcelona Blue */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
-.navbar a:hover {
-    /* Hover effect for navigation bar links */
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ffdd00; /* Barcelona Accent Color */
 }
 
 .flex-container {
     display: flex;
-    /* Additional flexbox styling */
+    justify-content: space-around;
+    align-items: center;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* Additional grid styling */
+    gap: 20px;
+    padding: 20px;
+}
+
+.item, .product-item, .contact-info {
+    border: 1px solid #004d98;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.item img, .product-item img, .contact-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
